@@ -1,9 +1,7 @@
 <?php
 
 
-Route::get('/admin', function () {
-    return 'ADMIN';
-});
+
 
 
 Route::namespace('Front')->group(function(){
